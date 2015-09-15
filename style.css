@@ -1,0 +1,28 @@
+section {
+    border: 1px solid blue;
+}
+
+h2 {
+    width: 100px; background-color: lightblue;
+}
+
+.child {
+    font-size: 3em; color: green;
+}
+
+#hogehoge {
+    background-color: yellow;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section{
+    flex: 1 0 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: lightgrey;
+}
